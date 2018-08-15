@@ -5,7 +5,7 @@ import becker.robots.*;
 /** 
  * Practica de los conceptos de Programacion Estructurada
  * @author Fabian Andres Giraldo */
-public class RobotBase
+public class ejercicio2
 {    
        //Declaracion de Variables -- Forma temporal - No es buena practica tener
        //variables estaticas
@@ -19,11 +19,8 @@ public class RobotBase
             
             //Direction.NORTH, EAST, SOUTH, WEST
             //Definicion de la ubicacion del robot, Ciudad, posicion, Direccion, Numero things en el bolso.
-            estudiante = new Robot(objetos, 0, 1, Direction.SOUTH,0);
-            estudiante.move();
-            while (estudiante.canPickThing()==true){
-                estudiante.pickThing();
-            };
+            estudiante = new Robot(objetos, 0, 2, Direction.EAST,10);
+            
 	}
         
         public static void creacionFuncion(int parametroEntrada){
